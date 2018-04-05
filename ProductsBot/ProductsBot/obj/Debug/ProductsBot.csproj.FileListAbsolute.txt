@@ -1,0 +1,55 @@
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Bot Application.dll.config
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Bot Application.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Bot Application.pdb
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Autofac.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Chronic.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Builder.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Connector.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Logging.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Protocols.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Tokens.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Rest.ClientRuntime.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Newtonsoft.Json.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.Net.Http.Formatting.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.Web.Http.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.Web.Http.WebHost.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Autofac.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Builder.pdb
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Builder.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Builder.Autofac.pdb
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.Bot.Connector.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Logging.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Protocols.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.IdentityModel.Tokens.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\Newtonsoft.Json.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.Net.Http.Formatting.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.Web.Http.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\System.Web.Http.WebHost.xml
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\obj\Debug\ProductsBot.csproj.CoreCompileInputs.cache
+D:\VS2017_Projects\ProductsBot\ProductsBot\obj\Debug\ProductsBot.csproj.CopyComplete
+D:\VS2017_Projects\ProductsBot\ProductsBot\obj\Debug\Bot Application.dll
+D:\VS2017_Projects\ProductsBot\ProductsBot\obj\Debug\Bot Application.pdb
+D:\VS2017_Projects\ProductsBot\ProductsBot\obj\Debug\ProductsBot.csprojResolveAssemblyReference.cache

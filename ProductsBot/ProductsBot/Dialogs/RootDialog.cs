@@ -61,27 +61,6 @@ namespace ProductsBot.Dialogs
 
         }
 
-        /*private async Task CategoryReceivedAsync(IDialogContext context, IAwaitable<object> result)
-        {
-            var activity = await result as Activity;
-
-            var categoryId = Guid.Parse(activity.Text);
-
-            var productsByCategory =
-                await GetProductsByCategoryAsync("http://localhost:60963/api/products/bycategory/" + categoryId.ToString());
-
-            string m = "";
-            foreach (var p in productsByCategory)
-            {
-                m += $"{p.Name}   $ {p.Price}<br/>";
-            }
-            await context.PostAsync(m);
-
-            context.Wait(MessageReceivedAsync);
-
-        }*/
-
-
         private Attachment CreateAttachmentForProduct(Product product)
         {
             List<CardAction> cardButtons = new List<CardAction>();
@@ -105,6 +84,7 @@ namespace ProductsBot.Dialogs
             return plCard.ToAttachment();
 
         }
+
         private async Task CategoryReceivedSendCardsAsync(IDialogContext context, IAwaitable<object> result)
         {
 
@@ -122,22 +102,7 @@ namespace ProductsBot.Dialogs
             {
                 replyToConversation.Attachments.Add(CreateAttachmentForProduct(product));
             }
-           /* List<CardAction> rootButtons = new List<CardAction>();
-
-            CardAction rootButton = new CardAction()
-            {
-                Value = 1,
-                Type = ActionTypes.PostBack,
-                Title = "Back to root"
-            };
-            rootButtons.Add(rootButton);
-            HeroCard rootCard = new HeroCard()
-            {
-                Title = "Want to go back7",
-                Buttons = rootButtons
-            };
-            Attachment backToRootAttachment = rootCard.ToAttachment();
-            replyToConversation.Attachments.Add(backToRootAttachment);*/
+          
 
             var connector = new ConnectorClient(new Uri(message.ServiceUrl));
             var reply = await connector.Conversations.SendToConversationAsync(replyToConversation);

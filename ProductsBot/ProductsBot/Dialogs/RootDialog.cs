@@ -32,7 +32,7 @@ namespace ProductsBot.Dialogs
             reply.Type = ActivityTypes.Message;
             reply.TextFormat = TextFormatTypes.Plain;
 
-            var categories = await GetAllCategoriesAsync("http://localhost:51380/api/products/allcategories");
+            var categories = await GetAllCategoriesAsync("http://localhost:60963/api/products/allcategories");
 
             var categoriesActions = new List<CardAction>();
             foreach (var category in categories)
@@ -68,7 +68,7 @@ namespace ProductsBot.Dialogs
             var categoryId = Guid.Parse(activity.Text);
 
             var productsByCategory =
-                await GetProductsByCategoryAsync("http://localhost:51380/api/products/bycategory/" + categoryId.ToString());
+                await GetProductsByCategoryAsync("http://localhost:60963/api/products/bycategory/" + categoryId.ToString());
 
             string m = "";
             foreach (var p in productsByCategory)
@@ -116,7 +116,7 @@ namespace ProductsBot.Dialogs
             replyToConversation.Attachments = new List<Attachment>();
 
             var productsByCategory =
-                await GetProductsByCategoryAsync("http://localhost:51380/api/products/bycategory/" + categoryId.ToString());
+                await GetProductsByCategoryAsync("http://localhost:60963/api/products/bycategory/" + categoryId.ToString());
 
             foreach (var product in productsByCategory)
             {
@@ -160,7 +160,7 @@ namespace ProductsBot.Dialogs
             var productId = Guid.Parse(message.Text);
             var userId = message.From.Id;
 
-            string uri = "http://localhost:51380/api/cart/addproduct/" + userId + "/" + productId.ToString();
+            string uri = "http://localhost:60963/api/cart/addproduct/" + userId + "/" + productId.ToString();
             HttpClient httpClient = new HttpClient();
             HttpResponseMessage response = await httpClient.PostAsync(uri, new StringContent("text"));
             var content = await response.Content.ReadAsAsync<ShoppingCart>();
@@ -202,7 +202,7 @@ namespace ProductsBot.Dialogs
             var message = await result as Activity;
             var userId = message.From.Id;
             HttpClient httpClient = new HttpClient();
-            string uri = "http://localhost:51380/api/cart/buyproducts/" + userId;
+            string uri = "http://localhost:60963/api/cart/buyproducts/" + userId;
             HttpResponseMessage response = await httpClient.PostAsync(uri, new StringContent("text"));
             var content = await response.Content.ReadAsAsync<bool>();
             await context.PostAsync("bought");
